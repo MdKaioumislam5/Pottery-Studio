@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-img {
+    background-image: url(./images/Image_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    color: white;
+    padding: 352px 0 200px 100px;
+}
+
+button {
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/* about session start */
+
+.about {
+    width: 50%;
+    text-align: center;
+    float: left;
+    background-color: rgb(98, 81, 81);
+    color: white;
+    height: 400px;
+    padding-top: 200px;
+}
+
+.registration {
+    width: 50%;
+    text-align: center;
+    float: right;
+    background-color: black;
+    height: 400px;
+    color: white;
+    padding-top: 200px;
+}
+
+
+/* about session end */
+
+
+/* work session start */
+
+.work-paper {
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding-top: 400px;
+    background-color: rgba(233, 214, 214, 0.876);
+    height: 884px;
+}
+
+.hand-work img {
+    width: 70%;
+    float: right;
+    /* image: cover; */
+}
+
+
+/* work session End */
+
+
+/* studio section start */
+
+.handicraft img {
+    width: 70%;
+    float: left;
+}
+
+.membership {
+    width: 30%;
+    float: right;
+    background-color: black;
+    color: white;
+    height: 873px;
+    text-align: center;
+    padding-top: 440px;
+}
+
+
+/* studio section End */
+
+
+/* Potter session start */
+
+.potter {
+    background-image: url(./images/Image_4.png);
+    height: 117vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.card {
+    height: 400px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.747);
+    text-align: center;
+    padding-top: 100px;
+}
+
+.potter .card {
+    margin: 800px 80px 0px 400px;
+    border-bottom: 3px solid rgb(173, 133, 133);
+    position: absolute;
+    border-style: outset;
+}
+
+
+/* Potter session End */
+
+
+/* footer section start */
+
+.footer {
+    background-color: black;
+    height: 450px;
+    width: 100%;
+}
+
+.footer-text {
+    padding: 130px 0 110px 0;
+    text-align: center;
+    color: white;
+}
+
+.input {
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.email {
+    padding: 5px 15px;
+}
+
+
+/* footer section End */
